@@ -10,12 +10,12 @@ public class EnemyInRangeChecker : MonoBehaviour
     {
         Collider[] cols = Physics.OverlapSphere(transform.position, _radius);
         print(cols.Length);
-        if (cols.Length <= 0)
+        for (int i = 0; i < cols.Length; i++)
         {
-            return null;
+            print(cols[i].name);
         }
 
-        return cols[0].GetComponent<Enemy>();
+        return null;
     }
 
     private void OnDrawGizmos()

@@ -2194,7 +2194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2885220748062187316, guid: 1854d290b6b79a54dabd6af63c60dd17, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: BaseEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 2885220748062187316, guid: 1854d290b6b79a54dabd6af63c60dd17, type: 3}
       propertyPath: m_Layer
